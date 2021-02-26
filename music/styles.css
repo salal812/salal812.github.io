@@ -1,0 +1,51 @@
+div.music{
+	display: flex;
+	flex-direction: column;
+}
+
+div.songs{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+}
+
+div.lous{
+	display: flex;
+	flex-direction: row;
+}
+
+div.of{
+	display: flex;
+	flex-direction: row;
+}
+
+div.about{
+	display: flex;
+	flex-direction: row;
+}
+
+div.and{
+	display: flex;
+	flex-direction: row;
+}
+
+div.songs2{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+}
+div.songs3{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+}
+div.songs4{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+}
+div.songs5{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+}
