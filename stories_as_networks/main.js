@@ -1,17 +1,34 @@
-jQuery(page1).ready(function() {
+const $bigBall = document.querySelector('.cursor__ball');
+const $smallBall = document.querySelector('.cursor__ball--small');
+const $hoverables = document.querySelectorAll('.hoverable');
 
-  var mouseX = 0, mouseY = 0;
-  var xp = 0, yp = 0;
-   
-  $(document).mousemove(function(e){
-    mouseX = e.pageX - 30;
-    mouseY = e.pageY - 30; 
-  });
-    
-  setInterval(function(){
-    xp += ((mouseX - xp)/6);
-    yp += ((mouseY - yp)/6);
-    $("#circle").css({left: xp +'px', top: yp +'px'});
-  }, 20);
+// Listeners
+document.body.addEventListener('mousemove', onMouseMove);
+for (let i = 0; i < $hoverables.length; i++) {
+  $hoverables[i].addEventListener('mouseenter', onMouseHover);
+  $hoverables[i].addEventListener('mouseleave', onMouseHoverOut);
+}
 
-});
+// Move the cursor
+function onMouseMove(e) {
+  TweenMax.to($bigBall, .4, {
+    x: e.pageX - 15,
+    y: e.pageY - 15
+  })
+  TweenMax.to($smallBall, .1, {
+    x: e.pageX - 5,
+    y: e.pageY - 7
+  })
+}
+
+// Hover an element
+function onMouseHover() {
+  TweenMax.to($bigBall, .3, {
+    scale: 4
+  })
+}
+function onMouseHoverOut() {
+  TweenMax.to($bigBall, .3, {
+    scale: 1
+  })
+}
