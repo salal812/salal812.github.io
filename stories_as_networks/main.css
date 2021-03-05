@@ -2,8 +2,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	display:flex;
-	justify-content: center;
+	padding-top: 200px;
+	padding-right: 100px;
+	padding-left: 100px;
 	flex-direction: column;
+	align-content: center;
+	align-items: center;
 	line-height: 1.4;
 }
 

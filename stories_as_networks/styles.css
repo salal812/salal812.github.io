@@ -1,19 +1,50 @@
-#circle {
-    background: lightblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-body{
+body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	display:flex;
 	justify-content: center;
 	flex-direction: column;
 	line-height: 1.4;
-	background-color: #BE260E;
+	background-color:#B25252;
 	z-index: 2;
+	align-items: center;
+	transform: translate(0%,20%);
+	padding-right: 300px;
+	padding-left: 300px;
+}
+
+#cursor {
+	position: absolute;
+    background: white;
+    z-index: -1;
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    transition: 0s;
+    transform: translate(0%,-20%);
+
+}
+
+#cursor2 {
+	position: absolute;
+    background: rgb(186,19,19);
+    z-index: 1;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    mix-blend-mode: difference;
+}
+
+///*@keyframes ball {
+	0% {left:0px; top:1200px;}
+	25% {left:125px; top:1000px;}
+	50% {left:250px; top:900px;}
+	75% {left:500px top:1000px;}
+	100% {left:1000px; top:1200px;}
+}*///
+
+.below {
+	z-index: -2;
 }
 
 div.dot {
@@ -29,7 +60,7 @@ a{
 }
 
 div.red{
-	color:#BE260E;
+	color: #B25252;
 }
 
 div.circle {
@@ -48,5 +79,5 @@ div.pg1{
 }
 
 span.red{
-	color:#BE260E;
+	color: #B25252;
 }

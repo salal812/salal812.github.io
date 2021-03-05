@@ -1,0 +1,89 @@
+#cursor2 { 
+	position: absolute;
+    background: #B35252;
+	mix-blend-mode: difference;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(50%,50%);
+   	animation-name: ball;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 1.4;
+	background-color: white;
+	z-index: 2;
+	align-items: center;
+	transform: translate(0%,30%);
+	margin-bottom: 200px;
+}
+
+#cursor {
+	position: absolute;
+    background: #B25252;
+    z-index: -1;
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+    transition: 0s;
+    transform: translate(0%,-50%);
+}
+
+@keyframes ball {
+	0% {left:0px; top:900px;}
+	25% {left:200px; top:1000px;}
+	50% {left:400px; top:1100px;}
+	75% {left:800px top:1200px;}
+	100% {left:4000px; top:1600px;}
+}
+
+.below {
+	z-index: -2;
+}
+
+div.dot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+a{
+	color: white;
+}
+
+div.red{
+	color:white;
+}
+
+div.circle {
+	position: absolute;
+  	border: solid 1px #ccc;
+	width: 60px; 
+	height: 60px; 
+  	border-radius: 50%;  
+  	color: white;
+  	z-index: 1;
+}
+
+div.pg1{
+	height: 600px;
+	width: 780px;
+}
+
+span.red{
+	color:white;
+}
+
+span.reddos{
+	color:#B35252;
+}
