@@ -15,7 +15,7 @@ var areYouGood = false;
 var integers = 333;
 console.log(integers);
 
-var oneHundred = "50+50"
+var oneHundred = ("50+50");
 console.log(oneHundred);
 
 var mary = 'Supercalifragilisticexpialidocious';
