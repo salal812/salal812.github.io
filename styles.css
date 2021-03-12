@@ -7,3 +7,6 @@ body {
   flex-direction: column;
   align-content: center;
 }
+h1{
+	font-size: 200px;
+}
