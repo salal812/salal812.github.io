@@ -3,4 +3,7 @@ body {
   letter-spacing: 0;
   line-height: 1.4;
   font-family: 'Lexend Mega', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
