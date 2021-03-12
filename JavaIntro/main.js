@@ -16,7 +16,7 @@ var integers = 333;
 console.log(integers);
 
 var oneHundred = "50+50"
-console.log("oneHundred");
+console.log(oneHundred);
 
 var mary = 'Supercalifragilisticexpialidocious';
 console.log(mary.length);
