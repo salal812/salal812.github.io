@@ -14,10 +14,6 @@ if (today >= 19 && today <= 21.40) {
    console.log('false');
 }
 
-var areYouOk = true;
-
-var areYouGood = false;
-
 var integers = 333;
 console.log(integers);
 
