@@ -8,6 +8,12 @@ var myFullName = (myName+myLastName);
 
 console.log(myName+myLastName);
 
+if (today >= 19 && today <= 21.40) {
+   console.log('true');
+} else {
+   console.log('false');
+}
+
 var areYouOk = true;
 
 var areYouGood = false;
