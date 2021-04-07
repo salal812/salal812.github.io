@@ -13,6 +13,10 @@ body {
 	padding-left: 300px;
 }
 
+div.pg1 {
+    border-color: black;
+}
+
 #cursor {
 	position: absolute;
     background: white;
