@@ -22,7 +22,7 @@ body {
     width: 100px;
     height: 100px;
     transition: 0s;
-    transform: translate(0%,-20%);
+   //*transform: translate(0%,-20%);*/
 
 }
 
