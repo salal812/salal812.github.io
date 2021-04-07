@@ -8,12 +8,10 @@ body {
 	background-color:#B25252;
 	z-index: 2;
 	align-items: center;
-	transform: translate(0%,20%);
 	padding-right: 300px;
 	padding-left: 300px;
 	border-style: double;
 	padding-top: 100;
-	padding-bottom: 100px;
 }
 
 #cursor {
