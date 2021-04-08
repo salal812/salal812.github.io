@@ -21,9 +21,9 @@ body {
 	line-height: 1.4;
 	background-color: white;
 	z-index: 2;
-	align-items: center;
 	transform: translate(0%,30%);
 	margin-bottom: 200px;
+	border-style: double;
 }
 
 #cursor {
