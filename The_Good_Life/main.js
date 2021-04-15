@@ -1,26 +1,26 @@
 window.onload = init;
 	
 function init() {
-	let mywallIndex = 0;
-	let button = document.getElementById('button');
-	console.log(button)
-	button.addEventListener("click", change, 1);
+	myWallsIndex = 0;
+	let logo = document.getElementById('logo');
+	console.log(logo)
+	logo.addEventListener("click", nextWall, 1);
 }
 
-let mywallsArray = ["wall1", "wall2", "wall3",];
-let mywallIndex = 1;
+let myWallsArray = ["wall1", "wall2", "wall3", "wall4"];
+let myWallsIndex = 0;
 
-function change(direction) {
+function nextWall(direction) {
 	console.log("clicked");
 	//increment / decrement array
-	mywallIndex = mywallIndex + 1;	
-	if (mywallIndex == mywallsArray.length){
-		mywallIndex = 0
+	myWallsIndex = myWallsIndex + 1;	
+	if (myWallsIndex == myWallsArray.length){
+		myWallsIndex = 0
 	}
 	// update 
-	element = document.getElementById("wall");
+	element = document.getElementById('wall');
 	console.log("Your element is: ");
 	console.log(element);
-	console.log(mywallIndex, mywallsArray[mywallIndex]);
-	element.src = "url(images/" + mywallsArray[mywallIndex] + ".png";
+	console.log(myWallsIndex, myWallsArray[myWallsIndex]);
+	element.src = "images/" + myWallsArray[myWallsIndex] + ".png";
 }

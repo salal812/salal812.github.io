@@ -63,7 +63,7 @@ function showObjects() {
   objectTitle.innerText = object.fields.title;
   objectContainer.append(objectTitle);
 
-  var objectArtist = document.createElement("h2");
+  var objectArtist = document.createElement("h1");
   objectArtist.classList.add("object-artist")
   objectArtist.innerText = object.fields.artist;
   objectContainer.append(objectArtist);
@@ -120,7 +120,7 @@ var filterOffice = document.querySelector('.office');
 
     if (objectContainer.classList.contains("office")) {
       objectContainer.style.display = "block";
-      document.body.style.backgroundImage = "url('bathroom2.png')";
+      document.body.style.backgroundImage = "url('office.png')";
     } else {
       objectContainer.style.display = "none";
     }
@@ -131,7 +131,7 @@ var filterMiscellaneous = document.querySelector('.miscellaneous');
 
     if (objectContainer.classList.contains("miscellaneous")) {
       objectContainer.style.display = "block";
-      document.body.style.backgroundImage = "url('bathroom2.png')";
+      document.body.style.backgroundImage = "url('interior.png')";
     } else {
       objectContainer.style.display = "none";
     }
@@ -142,7 +142,7 @@ var filterEntrance = document.querySelector('.entrance');
 
     if (objectContainer.classList.contains("entrance")) {
       objectContainer.style.display = "block";
-      document.body.style.backgroundImage = "url('bathroom2.png')";
+      document.body.style.backgroundImage = "url('entry.png')";
     } else {
       objectContainer.style.display = "none";
     }
@@ -164,7 +164,7 @@ var filterEntrance = document.querySelector('.entrance');
 
     if (objectContainer.classList.contains("tools_cleaning")) {
       objectContainer.style.display = "block";
-      document.body.style.backgroundImage = "url('bathroom2.png')";
+      document.body.style.backgroundImage = "url('misc.png')";
     } else {
       objectContainer.style.display = "none";
     }

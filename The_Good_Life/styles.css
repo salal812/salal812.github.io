@@ -1,3 +1,60 @@
+body{
+	font-family: arial;
+	padding-left: 200px;
+	padding-top: 0px;
+	background-color: black;
+}
+
+.whole{
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logo{
+	position: absolute;
+	z-index: 3;
+	padding-left: 340px;
+}
+
+.logo:hover{
+	border-color: white;
+	border-radius: 8px;
+}
+
+.boton{
+	color:white;
+	z-index: 2;
+}
+
+h1{
+	z-index: 2;
+	color:black;
+	font-size: 60px;
+	position: absolute;
+	padding-top: 30px;
+}
+
+h2{
+	z-index: 2;
+	padding-top: 680px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+a{
+	color: white;
+	background-color: black;
+}
+
+
 div.room{
 	display: flex;
 	flex-direction: column;
@@ -7,47 +64,46 @@ div.room{
 	border-radius: 10px;
 }
 
-div.logo{
-	position: absolute;
-	top: 80px;
+span{
+	background-color: white;
+	border: 1px solid red;
 }
 
 div.wall{
 	position: absolute;
-	top: 80px;
-  	width: 919px;
-  	height: 536px;
-	background-image: url(./images/wallpaper_1.jpg);
+	top: 40px;
+  	//*width: 920px;
+  	height: 780px;
+	//*background-image: url(wall1.png);*//
 
 }
 	
 
 div.wall1{
-	width: 400px;
-	height: 400px;
 	position: absolute;
-	padding-top: 60px;
+	padding-top: 750px;
+	padding-left: 0px;
 	z-index: 2;
 }
 
 div.wall2{
 	position: absolute;
-	padding-top: 0px;
-	padding-left: 420px;
+	padding-top: 500px;
+	padding-left: 550px;
 	z-index: 2;
 }
 
 div.wall3{
 	position: absolute;
-	padding-top: 200px;
-	padding-left: 600px;
+	padding-top: 990px;
+	padding-left: 660px;
 	z-index: 2;
 }
 
 div.chair{
 	position: absolute;
-	padding-top: 200px;
-	padding-left: 200px;
+	padding-top: 1200px;
+	padding-left: 280px;
 	z-index: 2;
 }
 

@@ -5,15 +5,26 @@ body{
 }
 
 .object-container{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 25px;
+	display: grid;
+	grid-gap; 2rem;
+	grid-template-columns: 1fr 1fr; 
+}
+
+.object-container:hover{
+	background-color:white;
+	font-size: 80px;
+}
+
+img:hover{
+	width: 600px height:600px;
 }
 
 div.room{
 	font-family: Arial;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 a{
@@ -22,8 +33,12 @@ a{
 }
 
 span{
-	background-color: white;
-	border: 1px solid red;
+	//*background-color: white;*//
+	border: 1px solid black;
+}
+
+span:hover{
+	color:red;
 }
 
 img{
@@ -33,10 +48,6 @@ img{
 
 h1{
 	font-family: Arial;
-	font-size: 20px;
-}
-
-h2{
-	font-family: Arial;
-	font-size: 10px;
+	font-size: 50px;
+	margin: 0;
 }
