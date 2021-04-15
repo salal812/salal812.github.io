@@ -20,8 +20,11 @@ div.wall{
 	background-image: url(./images/wallpaper_1.jpg);
 
 }
+	
 
 div.wall1{
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	padding-top: 60px;
 	z-index: 2;
@@ -55,3 +58,4 @@ div.floor{
   	height: 216px;
 	background-image: url(./images/floor_1.jpg);
 }
+

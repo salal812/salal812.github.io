@@ -1,13 +1,26 @@
-let myWallArray = ["wall1", "wall2", "wall3",];
-let myWallIndex = 0;
-let wall = myWallArray[Math.floor(Math.random() * myWallIndex.length)];
+window.onload = init;
+	
+function init() {
+	let mywallIndex = 0;
+	let button = document.getElementById('button');
+	console.log(button)
+	button.addEventListener("click", change, 1);
+}
 
-// console.log("Is our script file working?");
+let mywallsArray = ["wall1", "wall2", "wall3",];
+let mywallIndex = 0;
 
-let myChairArray = ["chair1", "chair2", "chair3",];
-let myChairIndex = 0;
-let wall = myChairArray[Math.floor(Math.random() * myChairIndex.length)];
-
-let myChairArray = ["flooro1", "flooro2", "flooro3",];
-let myChairIndex = 0;
-let wall = myChairArray[Math.floor(Math.random() * myChairIndex.length)];
+function change(direction) {
+	console.log("clicked");
+	//increment / decrement array
+	mywallIndex = mywallIndex + 1;	
+	if (mywallIndex == mywallsArray.length){
+		mywallIndex = 0
+	}
+	// update 
+	element = document.getElementById("wall");
+	console.log("Your element is: ");
+	console.log(element);
+	console.log(mywallIndex, mywallsArray[mywallIndex]);
+	element.src = "url(images/" + mywallsArray[mywallIndex] + ".png";
+}
