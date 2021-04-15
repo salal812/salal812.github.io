@@ -8,7 +8,7 @@ function init() {
 }
 
 let mywallsArray = ["wall1", "wall2", "wall3",];
-let mywallIndex = 0;
+let mywallIndex = 1;
 
 function change(direction) {
 	console.log("clicked");
