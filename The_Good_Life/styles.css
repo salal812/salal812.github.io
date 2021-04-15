@@ -1,0 +1,57 @@
+div.room{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1;
+	align-content: center;
+	border-radius: 10px;
+}
+
+div.logo{
+	position: absolute;
+	top: 80px;
+}
+
+div.wall{
+	position: absolute;
+	top: 80px;
+  	width: 919px;
+  	height: 536px;
+	background-image: url(./images/wallpaper_1.jpg);
+
+}
+
+div.wall1{
+	position: absolute;
+	padding-top: 60px;
+	z-index: 2;
+}
+
+div.wall2{
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 420px;
+	z-index: 2;
+}
+
+div.wall3{
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 600px;
+	z-index: 2;
+}
+
+div.chair{
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 200px;
+	z-index: 2;
+}
+
+div.floor{
+	position: absolute;
+	top: 516px;
+  	width: 919px;
+  	height: 216px;
+	background-image: url(./images/floor_1.jpg);
+}
