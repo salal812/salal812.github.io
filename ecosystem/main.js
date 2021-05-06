@@ -49,3 +49,33 @@ function PlayRainforest() {
 function PauseRainforest() {
     three.pause();
 }
+
+
+
+
+window.onload = init;
+	
+function init() {
+	myVidsIndex = 0;
+	let small = document.getElementById('small');
+	console.log(small)
+	small.addEventListener("click", nextVid, 1);
+}
+
+let myVidsArray = ["vid1", "vid2", "vid3", "vid4"];
+let myVidsIndex = 0;
+
+function nextVid(direction) {
+	console.log("clicked");
+	//increment / decrement array
+	myVidsIndex = myVidsIndex + 1;	
+	if (myVidsIndex == myVidsArray.length){
+		myVidsIndex = 0
+	}
+	// update 
+	element = document.getElementById('myVideo');
+	console.log("Your element is: ");
+	console.log(video);
+	console.log(myVidsIndex, myVidsArray[myVidsIndex]);
+	video.src = "videos/" + myVidsArray[myVidsIndex] + ".mp4";
+}
