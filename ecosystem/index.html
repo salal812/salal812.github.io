@@ -8,43 +8,99 @@
 	    <title> Ecosystem </title>
     </head>
     <body>
-    <div class="sounds">
+    <div class="allsounds">
+    <div class="sounds1">
         <div class"uno">
             <audio id="one"> </audio>
             <button id"play" onclick="PlayCats()"> cats </button>
-            <button id"pause" onclick="PauseCats()"> pause cats </button>
+            <button id="pause" id"pause" onclick="PauseCats()"> pause cats </button>
         </div>
         <div class"dos">
             <audio id="two"> </audio>
             <button onclick="PlayBirds()"> birds </button>
-            <button onclick="PauseBirds()"> pause birds </button>
+            <button id="pause" onclick="PauseBirds()"> pause birds </button>
         </div>
         <div class"tres">
             <audio id="three"> </audio>
             <button onclick="PlayCricket()"> cricket </button>
-            <button onclick="PauseCricket()"> pause cricket </button>
+            <button id="pause" onclick="PauseCricket()"> pause cricket </button>
         </div>
         <div class"cuatro">
             <audio id="four"> </audio>
             <button onclick="PlayDog()"> dog </button>
-            <button onclick="PauseDog()"> pause dog </button>
+            <button id="pause" onclick="PauseDog()"> pause dog </button>
         </div>
         <div class"cinco">
             <audio id="five"> </audio>
             <button onclick="PlayLevant()"> Levant Sparrowhawk </button>
-            <button onclick="PauseLevant()"> pause Levant Sparrowhawk </button>
+            <button id="pause" onclick="PauseLevant()"> pause Levant Sparrowhawk </button>
         </div>
+    </div>
+    <div class="sounds2">
         <div class"seis">
             <audio id="six"> </audio>
             <button onclick="PlayRainforest()"> Rainforest </button>
-            <button onclick="PauseRainforest()"> pause rainforest </button>
+            <button id="pause" onclick="PauseRainforest()"> pause rainforest </button>
+        </div>
+        <div class"siete">
+            <audio id="seven"> </audio>
+            <button onclick="PlayHorse()"> Play Horse Galloping </button>
+            <button id="pause" onclick="PauseHorse()"> pause Horse </button>
+        </div>
+        <div class"ocho">
+            <audio id="eight"> </audio>
+            <button onclick="PlayRedBishop()"> Play Red Bishop </button>
+            <button id="pause" onclick="PauseRedBishop()"> Pause Red Bishop </button>
+        </div>
+        <div class"nueve">
+            <audio loop id="nine"> </audio>
+            <button onclick="PlayRobot()"> Play Robot </button>
+            <button id="pause" onclick="PauseRobot()"> Pause Robot </button>
+        </div>
+    </div>
+    <button id="click" onclick="PauseSounds1()">Pause all</button>
+    <div class="keys">
+        <div class"Azero">
+            <audio id="A0"> </audio>
+            <button onclick="PlayA0()"> A0 </button>
+        </div>
+        <div class"Aone">
+            <audio id="A1"> </audio>
+            <button onclick="PlayA1()"> A1 </button>
+        </div>
+        <div class"Atwo">
+            <audio id="A2"> </audio>
+            <button onclick="PlayA2()"> A2 </button>
+        </div>
+        <div class"Athree">
+            <audio id="A3"> </audio>
+            <button onclick="PlayA3()"> A3 </button>
+        </div>
+        <div class"Afour">
+            <audio id="A4"> </audio>
+            <button onclick="PlayA4()"> A4 </button>
+        </div>
+        <div class"Afive">
+            <audio id="A5"> </audio>
+            <button onclick="PlayA5()"> A5 </button>
+        </div>
+        <div class"Asix">
+            <audio id="A6"> </audio>
+            <button onclick="PlayA6()"> A6 </button>
+        </div>
+        <div class"Aseven">
+            <audio id="A7"> </audio>
+            <button onclick="PlayA7()"> A7 </button>
+        </div>
+        </div>
+
+        </div>
     </div>
     <div class="vid">
         <video autoplay muted loop id="myVideo"></video>
         <video src="vid1.mp4" type="video/mp4" autoplay loop playsinline muted>
         Your browser does not support HTML5 video.
         </video>
-        <button id="small">click me!</button>
     </div>
         <script src="" async defer></script>
     </body>

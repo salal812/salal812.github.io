@@ -1,26 +1,40 @@
 html, body {
     height: 100%;
+    font-family:'Times New Roman', Times, serif;
   }
 
-div.sounds{
-    position: fixed;
+div.allsounds{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.sounds1{
+    position: relative;
     font-weight: 200;
-    display: block;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    padding: 6rem;
-    
+    justify-content: space-evenly;
+    padding: 2rem;  
+}
+
+div.sounds2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+div.keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20px;
 }
 
 div.uno{
-    z-index: inherit;
     display: flex;
     flex-direction: column;
-    align-self: center;
 }
 
 div.dos{
@@ -41,12 +55,13 @@ div.cuatro{
 button{
     height: 2cm;
     width: 2cm;
-    background-color: rgb(15, 224, 26);
+    background-color: ivory;
     border-style: dashed 1,1  black;
 }
 
-button.pause{
-    background-color: darkorange;
+#pause{
+    background-color: black;
+    color: ivory;
 }
 
 div.vid{
@@ -55,6 +70,10 @@ div.vid{
 
 #small{
     background-color: ivory;
+    border-radius: 3rem;
+}
+
+#click{
     border-radius: 3rem;
 }
 
@@ -75,4 +94,36 @@ video {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+
+
+    div.keys {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 20rem;
+    }
+
+    div.allsounds{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div.sounds1{
+        font-weight: 200;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: auto;  
+    }
+    
+    div.sounds2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: auto;
+    }
   }
