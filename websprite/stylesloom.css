@@ -1,0 +1,138 @@
+
+
+#container{
+    position: absolute;
+    width: 811px;
+    height: 981px;
+    left: 309px;
+    top: 0px;
+    overflow-y: scroll;
+  }
+
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 147.91%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+  }
+
+  h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 147.91%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+  }
+
+#pink{
+    position: absolute;
+    width: 811px;
+    height: 509px;
+    left: 0px;
+    top: 509px;
+    background: #E3536F;
+}
+
+#blackt{
+  position: absolute;
+width: 811px;
+height: 180px;
+left: px;
+top: 1164px;
+
+background: #000000;
+}
+
+#green{
+  position: absolute;
+  width: 811px;
+  height: 509px;
+  left: 0px;
+  top: 1527px;
+  background: #6FA358;
+}
+
+#container2{
+  position: absolute;
+  width: fit-content;
+  height: 981px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  overflow-y: scroll;
+}
+
+#yellow{
+  position: absolute;
+  width: 309px;
+  height: 509px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFB700;
+}
+
+img{
+  height: 400px;
+  width: 309px;
+  object-fit: scale-down;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#black{
+  position: relative;
+  width: 309px;
+  height: 180px;
+  left: 0px;
+  top: 981px;
+  background: #000000;
+}
+
+#black2{
+  position: absolute;
+  width: 309px;
+  height: 180px;
+  left: 0px;
+  top: 1348px;
+  background: #000000;
+}
+
+#yellow2{
+  position: absolute;
+  width: 309px;
+  height: 509px;
+  left: 0px;
+  top: 2036px;
+  background: #FFB700;
+}
+
+#rest{
+  position:absolute;
+  width: 320px;
+  height: 509px;
+  top: 0px;
+  left: 1120px;
+  background: #000000;
+}
+
+
+#output {
+    padding: 1rem 0;
+    display: none;
+  }

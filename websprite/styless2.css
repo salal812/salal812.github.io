@@ -1,0 +1,29 @@
+.cursor {
+    cursor: pointer;
+  }
+
+.prev,
+.next {
+    cursor: pointer;
+    position: flex;
+    flex-direction: row;
+  top: 90%;
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  width: auto;
+  color: rgb(0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  }
+
+ h1{
+    font-size: 1.5em;
+    margin: 0.83em 0;
+ }
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,474 @@
+html {
+    font-size: 100%;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+  }
+
+  img{
+  width: 100%;
+  object-fit: contain;
+  }
+
+  
+ a{
+   font-size: 0.3em;
+ }  
+
+
+
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+  }
+  h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+  }
+  h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+  }
+  h5 {
+    font-size: 3em;
+    margin: 1.67em 0;
+  }
+  h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+  }
+
+  b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  /*********************
+  TOOLS
+  *********************/
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image-replacement {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  @font-face {
+    font-family: 'OCRF';
+    src: url('../fonts/OCRF-Regular.eot');
+    src: local('☺'), url('../fonts/OCRF-Regular.woff') format('woff'), url('../fonts/OCRF-Regular.ttf') format('truetype'), url('../fonts/OCRF-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'OCRF';
+    src: url('../fonts/OCRF-Bold.eot');
+    src: local('☺'), url('../fonts/OCRF-Bold.woff') format('woff'), url('../fonts/OCRF-Bold.ttf') format('truetype'), url('../fonts/OCRF-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  
+  .text-left {
+    text-align: left;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .alert {
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid;
+  }
+  .alert-help {
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid;
+    border-color: #e8dc59;
+    background: #ebe16f;
+  }
+  .alert-info {
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid;
+    border-color: #bfe4f4;
+    background: #d5edf8;
+  }
+  .alert-error {
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid;
+    border-color: #f8cdce;
+    background: #fbe3e4;
+  }
+  .alert-success {
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid;
+    border-color: #deeaae;
+    background: #e6efc2;
+  }
+
+  * {
+    margin: 0;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #000000;
+  }
+
+  .wrap {
+    width: 96%;
+    margin: 0 auto;
+    max-width: 1800px;
+  }
+  #container {
+    min-height: 100%;
+    margin-bottom: -60px;
+  }
+  #container:after {
+    content: "";
+    display: block;
+    height: 60px;
+  }
+  /*********************
+  04. LINK STYLES
+  *********************/
+  a,
+  a:visited {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+  a:hover,
+  a:visited:hover,
+  a:focus,
+  a:visited:focus {
+    border-bottom: none;
+    padding-bottom: 4px;
+  }
+  a:link,
+  a:visited:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+  }
+  .image-link {
+    border: none;
+  }
+
+  .gallery-caption {
+    display: none;
+  }
+  .table {
+    width: 100%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+    background-color: white;
+    font-weight: bold;
+    table-layout: fixed;
+    -webkit-box-shadow: 0 0 0 #000000;
+    -moz-box-shadow: 0 0 0 #000000;
+    box-shadow: 0 0 0 #000000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .table td {
+    padding: 0 10px;
+    border: 2px solid #000000;
+  }
+  .table tr td:first-child {
+    width: 20%;
+  }
+
+  .table tr td.img {
+    padding: 4em 0.8em;
+    vertical-align: top;
+    line-height: 0;
+    text-align: center;
+  }
+  .table tr td.img a {
+    border: none;
+  }
+  .table tr td.img img {
+    max-width: 100%;
+    width: auto;
+    max-height: 350px;
+  }
+  a .table:hover {
+    -webkit-box-shadow: 6px 6px 0 #000000;
+    -moz-box-shadow: 6px 6px 0 #000000;
+    box-shadow: 6px 6px 0 #ff16b9;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .home-article {
+    margin: 0 !important;
+    width: 100%;
+  }
+  article.type-post .entry-content div.wp-caption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  article.type-post .entry-content img {
+    max-width: 100%;
+  }
+
+  @media only screen and (min-width: 481px) {
+    /******************************************************************
+  Site Name: P-DPA.net
+  Author: Silvio Lorusso
+  
+  Stylesheet: 481px and Up Stylesheet
+  
+  ******************************************************************/
+    /*********************
+  POSTS & CONTENT STYLES
+  *********************/
+    /* entry content */
+    .entry-content {
+      /* at this larger size, we can start to align images */
+    }
+    .entry-content .alignleft,
+    .entry-content img.alignleft {
+      margin-right: 1.5em;
+      display: inline;
+      float: left;
+    }
+    .entry-content .alignright,
+    .entry-content img.alignright {
+      margin-left: 1.5em;
+      display: inline;
+      float: right;
+    }
+    .entry-content .aligncenter,
+    .entry-content img.aligncenter {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      clear: both;
+    }
+    /* end .entry-content */
+  }
+  /*
+  TABLET & SMALLER LAPTOPS
+  This is the average viewing window. So Desktops, Laptops, and
+  in general anyone not viewing on a mobile device. Here's where
+  you can add resource intensive styles.
+  */
+  @media only screen and (min-width: 768px) {
+    /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Grid Stylesheet
+  
+  I've seperated the grid so you can swap it out easily. It's
+  called at the top the style.less stylesheet.
+  
+  There are a ton of grid solutions out there. You should definitely
+  experiment with your own. Here are some recommendations:
+  
+  http://gridsetapp.com - Love this site. Responsive Grids made easy.
+  http://gridpak.com/ - Create your own responsive grid.
+  
+  The grid below is a combination of the 1140 grid and Twitter Boostrap. 
+  I liked 1140 but Boostrap's grid was way more detailed so I merged them 
+  together, let's see how this works out. If you want to use 1140, the original 
+  values are commented out on each line.
+  
+  ******************************************************************/
+    .onecol {
+      width: 5.801104972%;
+    }
+    /* 4.85%;  } /* grid_1  */
+    .twocol {
+      width: 14.364640883%;
+    }
+    /* 13.45%; } /* grid_2  */
+    .threecol {
+      width: 22.928176794%;
+    }
+    /* 22.05%; } /* grid_3  */
+    .fourcol {
+      width: 31.491712705%;
+    }
+    /* 30.75%; } /* grid_4  */
+    .fivecol {
+      width: 40.055248616%;
+    }
+    /* 39.45%; } /* grid_5  */
+    .sixcol {
+      width: 48.618784527%;
+    }
+    /* 48%;    } /* grid_6  */
+    .sevencol {
+      width: 57.182320438000005%;
+    }
+    /* 56.75%; } /* grid_7  */
+    .eightcol {
+      width: 65.74585634900001%;
+    }
+    /* 65.4%;  } /* grid_8  */
+    .ninecol {
+      width: 74.30939226%;
+    }
+    /* 74.05%; } /* grid_9  */
+    .tencol {
+      width: 82.87292817100001%;
+    }
+    /* 82.7%;  } /* grid_10 */
+    .elevencol {
+      width: 91.436464082%;
+    }
+    /* 91.35%; } /* grid_11 */
+    .twelvecol {
+      width: 99.999999993%;
+    }
+    /* 100%;   } /* grid_12 */
+    .onecol,
+    .twocol,
+    .threecol,
+    .fourcol,
+    .fivecol,
+    .sixcol,
+    .sevencol,
+    .eightcol,
+    .ninecol,
+    .tencol,
+    .elevencol,
+    .twelvecol {
+      position: relative;
+      float: left;
+      margin-left: 2.762430939%;
+    }
+    .first {
+      margin-left: 0;
+    }
+    .last {
+      float: right;
+    }
+
+    * {
+        background: transparent !important;
+        color: black !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+      }
+      a,
+      a:visited {
+        color: #444 !important;
+        text-decoration: underline;
+      }
+      a:after,
+      a:visited:after {
+        content: " (" attr(href) ")";
+      }
+      a abbr[title]:after,
+      a:visited abbr[title]:after {
+        content: " (" attr(title) ")";
+      }
+      .ir a:after,
+      a[href^="javascript:"]:after,
+      a[href^="#"]:after {
+        content: "";
+      }
+      pre,
+      blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+      }
+      thead {
+        display: table-header-group;
+      }
+      tr,
+      img {
+        page-break-inside: avoid;
+      }
+      img {
+        max-width: 100% !important;
+      }
+      @page {
+        margin: 0.5cm;
+      }
+      p,
+      h2,
+      h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2,
+      h3 {
+        page-break-after: avoid;
+      }
+      .sidebar,
+      .page-navigation,
+      .wp-prev-next,
+      .respond-form,
+      nav {
+        display: none;
+      }
+    }
+    
+    
