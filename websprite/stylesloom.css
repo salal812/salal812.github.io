@@ -35,6 +35,19 @@
     letter-spacing: -0.03em;
   }
 
+  h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 147.91%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+  }
+
 #pink{
     position: absolute;
     width: 811px;
