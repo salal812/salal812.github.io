@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const slides = document.querySelector("#slides");
   
   //this example uses an external data file called lemurs.json
-  const datafile = "lemurs.json";
+  const datafile = "portfolio.json";
   const request = new Request(datafile);
 
   //call the fetch method and store the response to a variable
@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", function() {
   .then(console.log(response))
   .then(data => {
     //console.log(data)
-    console.log(data.lemurs)
-    for (const lemur of data.lemurs) {
+    console.log(data.portfolio)
+    for (const portfolio of data.portfolio) {
       //create new li to hold slide content
       let slide = document.createElement('li');
       //set the content of the slide
-      slide.innerHTML = `<li><img src="${lemur.image}"><div class='text'><span class='title'>${lemur.title}</span><span class='caption'>${lemur.caption}</span></div></li>`
+      slide.innerHTML = `<li><img src="${portfolio.image}"><div class='text'><span class='title'>${portfolio.title}</span><span class='caption'>${portfolio.caption}</span></div></li>`
     //append to the ul
     slides.appendChild(slide);
     }
