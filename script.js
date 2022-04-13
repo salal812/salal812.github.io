@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   //find the ul the slides will be written to 
   const slides = document.querySelector("#slides");
   
-  //this example uses an external data file called lemurs.json
+  //this example uses an external data file called portfolio.json
   const datafile = "portfolio.json";
   const request = new Request(datafile);
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
       //create new li to hold slide content
       let slide = document.createElement('li');
       //set the content of the slide
-      slide.innerHTML = `<li><img src="${portfolio.image}"><div class='text'><span class='title'>${portfolio.title}</span><span class='caption'>${portfolio.caption}</span></div></li>`
+      slide.innerHTML = `<li><img src="${portfolio.image}"><div class='text'><span class='title'>${portfolio.title}</span>`
     //append to the ul
     slides.appendChild(slide);
     }
