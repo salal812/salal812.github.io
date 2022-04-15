@@ -1,0 +1,8 @@
+{"media":[
+    { "image":"media/bag.JPG","title":"Tanners bag", "caption":"tanners bag.","audio":"<audio src='bag.WAV'></audio>" },
+    { "image":"media/couch.JPG","title":"Sundays", "caption":"Sunday at new apartment friends come visit.","audio":"media/couch.WAV" },{ "image":"media/coverart.JPG", "title":"Cover Art","caption":"Helen and grant pose for some accidental great cover art.","audio":"media/coverart.WAV" },
+    { "image":"media/goodone.JPG","title":"Winters gone", "caption":"Cool shadow in a truck parked outside the brooklyn botanical garden, winter is finally over is seems everyone rejoices.","audio":"media/goodone.WAV" },
+    { "image":"media/lowertwn.JPG","title":"@ the gig", "caption":"A small show for lowertown really good indie band from atlanta that we briefly met at a rooftop party over the summer, they are really gonna take off I think.","audio":"lowertwn/bag.WAV" },
+    { "image":"media/spring.JPG", "title":"Sakura","caption":"Cherry blossoms blooming will have people thinking that spring is here when in reality because cherry blossoms.","audio":"media/spring.WAV" },
+    { "image":"media/sprinkles.JPG", "title":"Sprinkles","caption":"Sprinkles on your ice cream are guaranteed to make you smile.","audio":"media/sprinkles.WAV" },{ "image":"media/wee.JPG", "title":"Wee","caption":"Found an abandonded scooter and it brought us an unsurmontable amount of joy.","audio":"media/wee.WAV" }
+]}

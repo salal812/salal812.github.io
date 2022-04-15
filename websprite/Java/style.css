@@ -1,0 +1,140 @@
+
+#container{
+    width: 60%;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#slides {
+    left: 50px;
+    list-style-type: none;
+}
+
+
+.slide {
+    display: none;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(361deg);
+      }
+}
+
+#smile {
+    position: absolute;
+    top: 40%;
+    left: 400px;
+    list-style: dotted;
+    z-index: 2;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+
+
+
+
+
+/* Next & previous buttons */
+.prev
+{
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  color: rgb(190, 10, 10);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 5px;
+  z-index: 3;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 510px;
+  width: auto;
+  padding: 16px;
+  color: rgb(190, 10, 10);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 5px;
+  z-index: 3;
+}
+
+/* Position the "next button" to the right 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+*/
+
+/*
+.prev {
+    left: 0;
+}
+*/
+
+/*
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacituy 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+*/
+controls{
+    display:none;
+}
+
+#slides img {
+    max-width: 500px;
+    padding: 100px 0;
+    z-index: 2;
+}
+
+
+.title {
+    display:block;
+    right: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: end;
+}
+
+.caption {
+    display:block;
+    text-align: left;
+    padding-right: 50%;
+}
+*/
