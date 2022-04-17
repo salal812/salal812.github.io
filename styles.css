@@ -10,3 +10,16 @@ body {
 h1{
 	font-size: 200px;
 }
+
+.p1 {
+  color:#069; 
+  cursor:pointer;
+}
+
+.description {
+  display:none;
+  position:absolute;
+  border:1px solid #000;
+  width:400px;
+  height:400px;
+}
