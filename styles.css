@@ -23,3 +23,64 @@ h1{
   width:400px;
   height:400px;
 }
+
+
+#me{
+  width: 60%;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#slides {
+  left: 50px;
+  list-style-type: none;
+}
+
+
+.slide {
+  display: none;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(361deg);
+    }
+}
+
+.prev
+{
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  color: rgb(190, 10, 10);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 5px;
+  z-index: 3;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 510px;
+  width: auto;
+  padding: 16px;
+  color: rgb(190, 10, 10);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 5px;
+  z-index: 3;
+}
