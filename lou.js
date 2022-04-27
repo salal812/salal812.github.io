@@ -14,6 +14,7 @@ let myVidsIndex = 0;
 
 function nextVid(direction) {
 	console.log("clicked");
+    console.log("touched")
 	//increment / decrement array
 	myVidsIndex = myVidsIndex + 1;	
 	if (myVidsIndex == myVidsArray.length){
