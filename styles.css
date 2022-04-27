@@ -1,14 +1,14 @@
-body {
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1.4;
-  font-family: 'Lexend Mega', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+* {
+  box-sizing: border-box;
 }
+
 h1{
 	font-size: 200px;
+}
+
+.all{
+  display: flex;
+  justify-content: center;
 }
 
 .navigation{
@@ -49,14 +49,6 @@ td, th {
 .p1 {
   color:#069; 
   cursor:pointer;
-}
-
-.description {
-  display:none;
-  position:absolute;
-  border:1px solid #000;
-  width:400px;
-  height:400px;
 }
 
 
