@@ -5,6 +5,7 @@ function init() {
 	let button = document.getElementById('button');
 	console.log(button)
 	button.addEventListener("click", nextVid, 1);
+    button.addEventListener("touchstart", nextVid, 1);
 }
 
 let myVidsArray = ["vid1", "vid2",];
