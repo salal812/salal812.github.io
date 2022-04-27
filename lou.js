@@ -22,5 +22,5 @@ function nextVid(direction) {
 	console.log("Your element is: ");
 	console.log(element);
 	console.log(myVidsIndex, myVidsArray[myVidsIndex]);
-	element.src = "images/" + myVidsArray[myVidsIndex] + ".MOV";
+	element.src = "images/" + myVidsArray[myVidsIndex] + "mp4";
 }

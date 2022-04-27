@@ -6,27 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  	  <title>Lou</title>
 	<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
-	<link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
 	<link rel="stylesheet" href="styles.css">
   </head>  
 <body>
-	<video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-  >
-    <source src="videos/vid1.webm" type="video/webm" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+	<video id="vid1" width="320" height="240" controls>
+		<source src="websprite/images/vid1.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	  </video>
+	<div id="button">
+		<h1>Next Vid</h1>
+	</div>
 <table>
 	<tr a class="p1"><a href="https://salal812.github.io/websprite/magdalene.html"><img border="0" alt="print" src="print.gif" width="150" height="150"><iframe class="description" src="https://salal812.github.io/websprite/magdalene.html"></iframe></a>
 	</tr>
@@ -71,6 +60,4 @@ Elastic Collection
 Input / Output
 	</ul>---> 
 <script src="lou.js"></script>
-<script src="jquery-3.6.0.min.js"></script>
-<script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
 </body>
