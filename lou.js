@@ -1,5 +1,6 @@
 window.onload = init;
-	
+window.onload = clickPrint;
+
 function init(evt) {
 	myVidsIndex = 0;
 	let button = document.getElementById('button');
@@ -26,4 +27,18 @@ function nextVid(direction) {
 	console.log(element);
 	console.log(myVidsIndex, myVidsArray[myVidsIndex]);
 	element.src = "websprite/" + "images/" + myVidsArray[myVidsIndex] + ".mp4";
+}
+
+
+function clickPrint(evt){
+    let print = document.getElementById('print');
+    evt.preventDefault()
+    console.log(print)
+	print.addEventListener("click", showIframe);
+    print.addEventListener("touchstart", showIframe);
+}
+
+function showIframe() {
+    console.log("clicked");
+    document.getElementById('mary').style.display = 'block';   
 }

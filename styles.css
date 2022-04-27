@@ -14,6 +14,7 @@ body{
 .navigation{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #row1{
@@ -31,19 +32,18 @@ body{
   flex-direction: row;
 }
 
+#card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#vid{
+  height: 400px;
+}
 
 table{
   border-collapse: collapse;
-}
-
-td, th {
-  text-align: left;
-  padding: 0px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
 }
 
 .p1 {
@@ -59,5 +59,9 @@ td, th {
 
 
 .slide {
+  display: none;
+}
+
+#mary{
   display: none;
 }
