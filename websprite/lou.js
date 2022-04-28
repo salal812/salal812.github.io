@@ -21,11 +21,17 @@ function init(evt) {
 	inter.addEventListener("click", showIframe2);
     inter.addEventListener("touchstart", showIframe2);
 
-    let resume = document.getElementById('cv');
+    let fun = document.getElementById('fun');
+    evt.preventDefault()
+    console.log(fun)
+	fun.addEventListener("click", showIframe3);
+    fun.addEventListener("touchstart", showIframe3);
+
+    let cv = document.getElementById('cv');
     evt.preventDefault()
     console.log(cv)
-	cv.addEventListener("click", showIframe3);
-    cv.addEventListener("touchstart", showIframe3);
+	cv.addEventListener("click", showIframe4);
+    cv.addEventListener("touchstart", showIframe4);
 
     let close = document.getElementById('close');
     evt.preventDefault()
@@ -57,22 +63,33 @@ function nextVid(direction) {
 function showIframe() {
     console.log("clicked");
     document.getElementById('mary').style.display = 'inline'; 
-    document.getElementById('java').style.display = 'none'; 
+    document.getElementById('web').style.display = 'none'; 
     document.getElementById('resume').style.display = 'none';
+    document.getElementById('java').style.display = 'none'; 
 }
 
 function showIframe2() {
     console.log("clicked");
-    document.getElementById('java').style.display = 'inline'; 
+    document.getElementById('web').style.display = 'inline'; 
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'none';
+    document.getElementById('java').style.display = 'none'; 
 }
 
 function showIframe3() {
     console.log("clicked");
+    document.getElementById('web').style.display = 'none'; 
+    document.getElementById('mary').style.display = 'none';
+    document.getElementById('resume').style.display = 'none';
+    document.getElementById('java').style.display = 'inline'; 
+}
+
+function showIframe4() {
+    console.log("clicked");
     document.getElementById('java').style.display = 'none'; 
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'inline';
+    document.getElementById('java').style.display = 'none'; 
 }
 
 function hideIframe() {
