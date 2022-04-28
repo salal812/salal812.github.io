@@ -23,7 +23,7 @@
 .projects{
   height: 600px; 
   width: 700px;
-  background: url(websprite/images/background.gif);
+  background: url(./images/background.gif);
 }
 
 .card{
