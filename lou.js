@@ -1,5 +1,4 @@
 window.onload = init;
-window.onload = clickPrint;
 
 function init(evt) {
 	myVidsIndex = 0;
@@ -8,6 +7,25 @@ function init(evt) {
     console.log(button)
 	button.addEventListener("click", nextVid, 1);
     button.addEventListener("touchstart", nextVid, 1);
+    
+    let print = document.getElementById('print');
+    evt.preventDefault()
+    console.log(print)
+	print.addEventListener("click", showIframe );
+    print.addEventListener("touchstart", showIframe);
+
+
+    let inter = document.getElementById('inter');
+    evt.preventDefault()
+    console.log(inter)
+	inter.addEventListener("click", showIframe2);
+    inter.addEventListener("touchstart", showIframe2);
+
+    let close = document.getElementById('close');
+    evt.preventDefault()
+    console.log(close)
+	close.addEventListener("click", hideIframe);
+    close.addEventListener("touchstart", hideIframe);
 }
 
 let myVidsArray = ["vid1", "vid2",];
@@ -30,15 +48,22 @@ function nextVid(direction) {
 }
 
 
-function clickPrint(evt){
-    let print = document.getElementById('print');
-    evt.preventDefault()
-    console.log(print)
-	print.addEventListener("click", showIframe);
-    print.addEventListener("touchstart", showIframe);
-}
-
 function showIframe() {
     console.log("clicked");
-    document.getElementById('mary').style.display = 'block';   
+    document.getElementById('mary').style.display = 'inline';  
 }
+
+function showIframe2() {
+    console.log("clicked");
+    document.getElementById('java').style.display = 'inline'; 
+}
+
+function hideIframe() {
+    console.log("clicked");
+    document.getElementById('mary').style.display = 'none'; 
+
+    console.log("clicked");
+    document.getElementById('java').style.display = 'none'; 
+}
+
+

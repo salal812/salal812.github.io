@@ -2,49 +2,40 @@
   box-sizing: border-box;
 }
 
-h1{
-	font-size: 200px;
-}
 
-body{
+.all{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .navigation{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px;
 }
 
-#row1{
-  display: flex;
-  flex-direction: row;
+.buttons{
+  padding: 0%;
+  display: inline-flex;
 }
 
-#row2{
-  display: flex;
-  flex-direction: row;
+.projects{
+  height: 600px; 
+  width: 700px;
+  background: url(websprite/images/background.gif);
 }
 
-#row3{
-  display: flex;
-  flex-direction: row;
-}
-
-#card{
+.card{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 #vid{
-  height: 400px;
+  width: 200px;
 }
 
-table{
-  border-collapse: collapse;
-}
 
 .p1 {
   color:#069; 
@@ -62,6 +53,13 @@ table{
   display: none;
 }
 
+#projects{
+  padding: 100px;
+}
 #mary{
+  display: none;
+}
+
+#java{
   display: none;
 }
