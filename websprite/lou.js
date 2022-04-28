@@ -50,7 +50,7 @@ function nextVid(direction) {
 	console.log("Your element is: ");
 	console.log(element);
 	console.log(myVidsIndex, myVidsArray[myVidsIndex]);
-	element.src = "websprite/" + "images/" + myVidsArray[myVidsIndex] + ".mp4";
+	element.src = "images/" + myVidsArray[myVidsIndex] + ".mp4";
 }
 
 
