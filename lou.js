@@ -21,6 +21,12 @@ function init(evt) {
 	inter.addEventListener("click", showIframe2);
     inter.addEventListener("touchstart", showIframe2);
 
+    let resume = document.getElementById('cv');
+    evt.preventDefault()
+    console.log(cv)
+	cv.addEventListener("click", showIframe3);
+    cv.addEventListener("touchstart", showIframe3);
+
     let close = document.getElementById('close');
     evt.preventDefault()
     console.log(close)
@@ -50,12 +56,23 @@ function nextVid(direction) {
 
 function showIframe() {
     console.log("clicked");
-    document.getElementById('mary').style.display = 'inline';  
+    document.getElementById('mary').style.display = 'inline'; 
+    document.getElementById('java').style.display = 'none'; 
+    document.getElementById('resume').style.display = 'none';
 }
 
 function showIframe2() {
     console.log("clicked");
     document.getElementById('java').style.display = 'inline'; 
+    document.getElementById('mary').style.display = 'none';
+    document.getElementById('resume').style.display = 'none';
+}
+
+function showIframe3() {
+    console.log("clicked");
+    document.getElementById('java').style.display = 'none'; 
+    document.getElementById('mary').style.display = 'none';
+    document.getElementById('resume').style.display = 'inline';
 }
 
 function hideIframe() {

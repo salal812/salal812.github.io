@@ -27,3 +27,18 @@
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.posters{
+  display: flex;
+  flex-direction: row;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+}
+
+.bodym {
+  display: flex;
+  flex-direction: row;
+}

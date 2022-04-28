@@ -17,6 +17,11 @@ html {
    font-size: 0.3em;
  }  
 
+ .bodym {
+   display: flex;
+   flex-direction: row;
+ }
+
 
 
   html,

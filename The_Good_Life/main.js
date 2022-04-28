@@ -7,8 +7,8 @@ function init() {
 	logo.addEventListener("click", nextWall, 1);
 }
 
-let myVidsArray = ["wall1", "wall2", "wall3", "wall4"];
-let myVidsIndex = 0;
+let myWallsArray = ["wall1", "wall2", "wall3", "wall4"];
+let myWallsIndex = 0;
 
 function nextWall(direction) {
 	console.log("clicked");
