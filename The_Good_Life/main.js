@@ -13,14 +13,14 @@ let myWallsIndex = 0;
 function nextWall(direction) {
 	console.log("clicked");
 	//increment / decrement array
-	myVidsIndex = myVidsIndex + 1;	
-	if (myVidsIndex == myVidsArray.length){
-		myVidsIndex = 0
+	myWallsIndex = myWallsIndex + 1;	
+	if (myWallsIndex == myWallsArray.length){
+		myWallsIndex = 0
 	}
 	// update 
 	element = document.getElementById('wall');
 	console.log("Your element is: ");
 	console.log(element);
-	console.log(myVidsIndex, myVidsArray[myVidsIndex]);
-	element.src = "images/" + myVidsArray[myVidsIndex] + ".png";
+	console.log(myWallsIndex, myWallsArray[myWallsIndex]);
+	element.src = "images/" + myWallsArray[myWallsIndex] + ".png";
 }
