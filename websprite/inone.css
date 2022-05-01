@@ -1,3 +1,25 @@
+html {
+    font-size: 100%;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-img-size-adjust: 100%;
+    /* 2 */
+    -ms-img-size-adjust: 100%;
+    /* 2 */
+  }
+
+  #pic, #photo{
+    width: 100%;
+    object-fit: contain;
+    }
+ #prev, #next{
+     height: 50%;
+     object-fit: contain;
+ }
+
 body{
     background-color: white;
 }
@@ -9,6 +31,45 @@ body{
 
 #slides{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
 }
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 147.91%;
+    display: flex;
+    letter-spacing: -0.03em;
+}
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 147.91%;
+    display: flex;
+    letter-spacing: -0.03em;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image-replacement {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
