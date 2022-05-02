@@ -1,18 +1,36 @@
-* {
-  box-sizing: border-box;
+
+
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-img-size-adjust: 100%;
+  /* 2 */
+  -ms-img-size-adjust: 100%;
+  /* 2 */
 }
 
 
 .all{
   display: flex;
   flex-direction: row;
+  width: 1200px;
+  max-width: calc(100% - 20px);
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .navigation{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
+  width: 1200px;
+  max-width: calc(100% - 20px);
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .buttons{
