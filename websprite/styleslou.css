@@ -16,37 +16,36 @@ html {
 
 .all{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 1200px;
   max-width: calc(100% - 20px);
   margin: 20px auto;
   padding: 10px;
 }
 
-.navigation{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1200px;
-  max-width: calc(100% - 20px);
-  margin: 20px auto;
-  padding: 10px;
-}
 
 .buttons{
-  padding: 0%;
+  width: 100%;
+  padding: 20%;
   display: inline-flex;
+  justify-content: center;
 }
 
 .projects{
-  height: 600px; 
-  width: 700px;
+  height: 400px; 
+  width: 100%;
+  padding: 5%;
   background: url(./images/background.gif);
+}
+
+iframe{
+  height: 400px;
+  width: 100%;
 }
 
 .card{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
