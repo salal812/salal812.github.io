@@ -14,6 +14,16 @@ html {
 }
 
 
+h1{
+  font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 147.91%;
+    display: flex;
+    letter-spacing: -0.03em;
+}
+
 .all{
   display: flex;
   flex-direction: column;
