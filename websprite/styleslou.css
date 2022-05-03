@@ -53,6 +53,10 @@ iframe{
     height: 1000px;
   }
 
+  .buttons{
+    padding: 0%;
+  }
+
   iframe{
     height: 1000px;
     width: 100%;
