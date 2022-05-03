@@ -34,6 +34,12 @@ html {
   background: url(./images/background.gif);
 }
 
+@media only screen and (max-width: 768px){
+  .projects{
+    height: 1000px;
+  }
+}
+
 .contact{
   display: flex;
   flex-direction: column;
