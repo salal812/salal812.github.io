@@ -32,6 +32,27 @@ h1{
   justify-content: space-between;
 }
 
+h2{
+  font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 12px;
+    line-height: 147.91%;
+    display: flex;
+    letter-spacing: 0.10em;
+    display: flex;
+}
+
+h3{
+  font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 8px;
+    line-height: 147.91%;
+
+    letter-spacing: 0.10em;
+}
+
 .all{
   display: flex;
   flex-direction: column;
@@ -40,10 +61,10 @@ h1{
 
 .buttons{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding: 5%;
-  align-items: center;
-  align-content: space-around;
+  align-items: space-between;
+  padding-bottom: 10%;
 }
 
 .projects{
@@ -72,10 +93,7 @@ iframe{
   }
 }
 
-.contact{
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 

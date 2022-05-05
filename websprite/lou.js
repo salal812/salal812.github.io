@@ -2,11 +2,6 @@ window.onload = init;
 
 function init(evt) {
 	myVidsIndex = 0;
-	let button = document.getElementById('button');
-    evt.preventDefault()
-    console.log(button)
-	button.addEventListener("click", nextVid, 1);
-    button.addEventListener("touchstart", nextVid, 1);
     
     let print = document.getElementById('print');
     evt.preventDefault()

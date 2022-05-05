@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function()
    for (const media of data.media) {
         //create new li to hold slide content
  let slide = document.createElement('li');
-    slide.innerHTML = `<li class="slide"><span class='title'>${media.title}</span><img src="${media.image}"><span class="caption">${media.caption}</span></div><audio src="${media.audio}"</audio></li>`
+    slide.innerHTML = `<li class="slide"><span class='title'>${media.title}</span><img src="${media.image}"><span class="caption">${media.caption}</span></li>`
  //append to the ul
  slides.appendChild(slide);
     }
@@ -57,11 +57,7 @@ function showSlides (n) {
     dots[slideIndex-1].className += " active";
 }
 
-window.addEventListener("load",function() {
-    showSlides(slideIndex);
-    myTimer = setInterval(function(){plusSlides(1)}, 4000);
-    audio.play();
-})
+
 
 
 
