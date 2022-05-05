@@ -67,6 +67,7 @@ function showIframe() {
     document.getElementById('web').style.display = 'none'; 
     document.getElementById('resume').style.display = 'none';
     document.getElementById('java').style.display = 'none'; 
+    document.getElementById('motion').style.display = 'none';
 }
 
 function showIframe2() {
@@ -75,6 +76,7 @@ function showIframe2() {
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'none';
     document.getElementById('java').style.display = 'none'; 
+    document.getElementById('motion').style.display = 'none';
 }
 
 function showIframe3() {
@@ -82,19 +84,23 @@ function showIframe3() {
     document.getElementById('web').style.display = 'none'; 
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'none';
-    document.getElementById('java').style.display = 'inline'; 
+    document.getElementById('java').style.display = 'inline';
+    document.getElementById('motion').style.display = 'none'; 
 }
 
 function showIframe4() {
     console.log("clicked");
+    document.getElementById('web').style.display = 'none'; 
     document.getElementById('java').style.display = 'none'; 
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'inline';
     document.getElementById('java').style.display = 'none'; 
+    document.getElementById('motion').style.display = 'none';
 }
 
 function showIframe5() {
     console.log("clicked");
+    document.getElementById('web').style.display = 'none'; 
     document.getElementById('java').style.display = 'none'; 
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'none';
