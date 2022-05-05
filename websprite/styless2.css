@@ -24,6 +24,10 @@ body{
     margin: 0.83em 0;
  }
 
+.motion{
+  display: flex;
+  justify-content: center;
+}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
