@@ -1,4 +1,6 @@
-
+body{
+    color: white;
+}
 #container{
     width: 60%;
     left: 100px;
