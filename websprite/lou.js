@@ -33,6 +33,12 @@ function init(evt) {
 	cv.addEventListener("click", showIframe4);
     cv.addEventListener("touchstart", showIframe4);
 
+    let mg = document.getElementById('mg');
+    evt.preventDefault()
+    console.log(mg)
+	mg.addEventListener("click", showIframe5);
+    mg.addEventListener("touchstart", showIframe5);
+
     let close = document.getElementById('close');
     evt.preventDefault()
     console.log(close)
@@ -90,6 +96,15 @@ function showIframe4() {
     document.getElementById('mary').style.display = 'none';
     document.getElementById('resume').style.display = 'inline';
     document.getElementById('java').style.display = 'none'; 
+}
+
+function showIframe5() {
+    console.log("clicked");
+    document.getElementById('java').style.display = 'none'; 
+    document.getElementById('mary').style.display = 'none';
+    document.getElementById('resume').style.display = 'none';
+    document.getElementById('java').style.display = 'none'; 
+    document.getElementById('motion').style.display = 'inline'; 
 }
 
 function hideIframe() {
