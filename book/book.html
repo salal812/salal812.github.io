@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>A Rotatable 3D Product Boxshot with Three.js</title>
+<title>BLOC MAYUS</title>
 <script type="text/javascript" src="Three.js"></script>
 <script type="text/javascript" src="OrbitControls.js"></script>
 <style>
@@ -69,7 +69,7 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
   ];
 
    // Create the book and add it to the scene
-   var book = new THREE.Mesh( new THREE.BoxGeometry( 10, 10, 8, 4, 4, 1 ), materials );
+   var book = new THREE.Mesh( new THREE.BoxGeometry( 10, 10, 10, 10, 10, 10 ), materials );
   scene.add( book );
 
     // Create the orbit controls for the camera
@@ -101,8 +101,9 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
 
 
 }
-
 </script>
 </head>
-<body></body>
+<body>
+  <button>next</button>
+</body>
 </html>
