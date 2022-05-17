@@ -43,7 +43,7 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
   var bookSpineTexture = textureLoader.load( 'cube2.jpg' );
   var bookBackTexture = textureLoader.load( 'cube3.jpg' );
   var bookPagesTexture = textureLoader.load( 'cube4.jpg' );
-  var bookPagesTopBottomTexture = textureLoader.load( 'white' );
+  var bookPagesTopBottomTexture = textureLoader.load( 'BLOC.jpg' );
 
   bookCoverTexture.minFilter
     = bookSpineTexture.minFilter
@@ -57,7 +57,7 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
   var bookSpine = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookSpineTexture } );
   var bookBack = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookBackTexture } );
   var bookPages = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookPagesTexture } );
-  var bookPagesTopBottom = new THREE.MeshLambertMaterial( { color: 000000, map: bookPagesTopBottomTexture } );
+  var bookPagesTopBottom = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookPagesTopBottomTexture } );
 
   var materials = [
     bookPages,          // Right side
