@@ -19,7 +19,7 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
   var scene = new THREE.Scene();
   // Create the camera
   var camera = new THREE.PerspectiveCamera(
-    35,                                     // Field of view
+    55,                                     // Field of view
     window.innerWidth / window.innerHeight, // Aspect ratio
     0.1,                                    // Near plane distance
     1000                                    // Far plane distance
@@ -39,10 +39,10 @@ var renderer = new THREE.WebGLRenderer( { alpha: true } );
 
      // Load the textures (book images)
   var textureLoader = new THREE.TextureLoader();
-  var bookCoverTexture = textureLoader.load( 'sc1c.png' );
-  var bookSpineTexture = textureLoader.load( 'sc2c.png' );
-  var bookBackTexture = textureLoader.load( 'sc3c.png' );
-  var bookPagesTexture = textureLoader.load( 'sc4c.png' );
+  var bookCoverTexture = textureLoader.load( 'cube.jpg' );
+  var bookSpineTexture = textureLoader.load( 'cube2.jpg' );
+  var bookBackTexture = textureLoader.load( 'cube3.jpg' );
+  var bookPagesTexture = textureLoader.load( 'cube4.jpg' );
   var bookPagesTopBottomTexture = textureLoader.load( 'white' );
 
   bookCoverTexture.minFilter
