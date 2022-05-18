@@ -1,0 +1,7 @@
+a{
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 30px;
+}

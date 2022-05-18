@@ -8,6 +8,7 @@
    
     <script type="text/javascript" src="Three.js"></script>
     <script type="text/javascript" src="OrbitControls.js"></script>
+    <link rel="stylesheet" href="./caps.css">
 </head>
 <title>Caps Lock</title>
 		<style>
@@ -24,7 +25,7 @@
           var scene = new THREE.Scene();
           // Create the camera
           var camera = new THREE.PerspectiveCamera(
-            35,                                     // Field of view
+            55,                                     // Field of view
             window.innerWidth / window.innerHeight, // Aspect ratio
             0.1,                                    // Near plane distance
             1000                                    // Far plane distance
@@ -44,11 +45,11 @@
         
              // Load the textures (book images)
           var textureLoader = new THREE.TextureLoader();
-          var bookCoverTexture = textureLoader.load( 'sc1c.png' );
-          var bookSpineTexture = textureLoader.load( 'sc2c.png' );
-          var bookBackTexture = textureLoader.load( 'sc3c.png' );
-          var bookPagesTexture = textureLoader.load( 'sc4c.png' );
-          var bookPagesTopBottomTexture = textureLoader.load( 'white' );
+          var bookCoverTexture = textureLoader.load( 'cube5.jpg' );
+          var bookSpineTexture = textureLoader.load( 'cube8.jpg' );
+          var bookBackTexture = textureLoader.load( 'cube7.jpg' );
+          var bookPagesTexture = textureLoader.load( 'cube6.jpg' );
+          var bookPagesTopBottomTexture = textureLoader.load( 'BLOC.jpg' );
         
           bookCoverTexture.minFilter
             = bookSpineTexture.minFilter
@@ -62,7 +63,7 @@
           var bookSpine = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookSpineTexture } );
           var bookBack = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookBackTexture } );
           var bookPages = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookPagesTexture } );
-          var bookPagesTopBottom = new THREE.MeshLambertMaterial( { color: 000000, map: bookPagesTopBottomTexture } );
+          var bookPagesTopBottom = new THREE.MeshLambertMaterial( { color: 0xffffff, map: bookPagesTopBottomTexture } );
         
           var materials = [
             bookPages,          // Right side
@@ -107,5 +108,6 @@
         
         }
     </script>
+    <a href="caps.html">next</a>
 </body>
 </html>
