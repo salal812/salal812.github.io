@@ -43,7 +43,12 @@ body{
  }
 
 
-.newestproj{
+.newestproj
+.proj1
+.proj2
+.proj3
+.proj4
+.proj5{
 object-fit: contain;
 } 
 
