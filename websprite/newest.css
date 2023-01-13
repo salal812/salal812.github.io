@@ -43,4 +43,11 @@ h3{
     gap: 10px;
 }
 
+.extrascont{
+    display: flex;
+    justify-content: center;
+}
 
+#extras{
+    display: none;
+}
