@@ -57,6 +57,7 @@ object-fit: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */

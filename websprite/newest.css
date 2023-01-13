@@ -29,7 +29,8 @@ h3{
 .butt{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     gap: 10px;
     justify-content: center;
     padding-top: 100px;
@@ -52,3 +53,15 @@ h3{
 #extras{
     display: none;
 }
+
+@media only screen and (max-width: 1000px){
+    .butt{
+      max-width: 100%;
+      height: auto;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+  }
