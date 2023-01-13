@@ -46,6 +46,7 @@ h3{
 .extrascont{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 
 #extras{
