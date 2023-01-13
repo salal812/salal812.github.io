@@ -33,7 +33,11 @@ h3{
     height: auto;
     gap: 10px;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+.intro{
+    padding-left: 20px;
 }
 
 
