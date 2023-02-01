@@ -1,0 +1,12 @@
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-self: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
