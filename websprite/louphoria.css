@@ -16,6 +16,13 @@ body{
     display: flex;
     flex-direction: row;
     font-family: vcr;
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.selected{
+    color: magenta;
 }
 
 .titleColumn {
@@ -32,19 +39,31 @@ h2{
     text-align: right;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .images{
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-    margin-top: 100px;
-    z-index: 2;
+    margin-top: 200px;
 }
+
 
 img {
     margin: 50px;
     width: 50%;
     height: auto;
 } 
+
+.image2{
+    margin-top: 20%;
+    margin: 50px;
+    width: 80%;
+    height: auto;
+}
 
 .img1{
     margin-right: 50%;
@@ -55,16 +74,27 @@ img {
     width: inherit;
 }
 
+.sub{
+    position: sticky;
+    top: 80px;
+    display: flex;
+    align-items:flex-end;
+    margin-left: 60%;
+    padding: 5px;
+}
+
 .proj{
     position: sticky;
     top: 80px;
     display: flex;
     align-items: center;
+    margin-left: 40%;
     padding: 5px;
 }
 
 .proj2{
     position: sticky;
     top: 180px;
+    margin-left: 60%;
     padding: 5px;
 }
