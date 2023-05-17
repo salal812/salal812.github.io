@@ -1,0 +1,100 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+@font-face {
+    font-family: vcr;
+    src: url(VCR\ OSD\ Mono.ttf)
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-family: vcr;
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.selected{
+    color: magenta;
+}
+
+.titleColumn {
+    flex: 50%;
+}
+
+h1{
+    position: fixed;
+}
+
+h2{
+    position: fixed;
+    right: 20px;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+
+img {
+    margin: 50px;
+    width: 50%;
+    height: auto;
+} 
+
+.image2{
+    margin-top: 20%;
+    margin: 50px;
+    width: 80%;
+    height: auto;
+}
+
+.img1{
+    margin-right: 50%;
+}
+
+.img2{
+    margin-left: 50%;
+    width: inherit;
+}
+
+.sub{
+    position: sticky;
+    top: 80px;
+    display: flex;
+    align-items:flex-end;
+    margin-left: 60%;
+    padding: 5px;
+}
+
+.proj{
+    position: sticky;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    padding: 5px;
+}
+
+.proj2{
+    position: sticky;
+    top: 180px;
+    margin-left: 60%;
+    padding: 5px;
+}
