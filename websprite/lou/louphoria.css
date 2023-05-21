@@ -74,6 +74,12 @@ img {
     width: inherit;
 }
 
+.img3{
+    margin-right: 50%;
+    width: 300px;
+    height: auto;
+}
+
 .sub{
     position: sticky;
     top: 80px;
@@ -94,7 +100,14 @@ img {
 
 .proj2{
     position: sticky;
-    top: 180px;
+    top: 120px;
     margin-left: 60%;
+    padding: 5px;
+}
+
+.proj3{
+    position: sticky;
+    top: 400px;
+    margin-left: 20%;
     padding: 5px;
 }
