@@ -117,8 +117,9 @@ img {
 .proj2{
     position: sticky;
     top: 120px;
-    margin-left: 60%;
+    align-self: center;
     padding: 5px;
+    background-color: white;
 }
 
 .proj3{
