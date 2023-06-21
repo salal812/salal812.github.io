@@ -109,15 +109,26 @@ img {
     position: sticky;
     top: 80px;
     display: flex;
-    align-items: center;
-    margin-left: 40%;
+    align-self: center;
     padding: 5px;
+    background-color: white;
+}
+
+.proj1{
+    position: sticky;
+    top:80px;
+    display: flex;
+    flex-direction: row;
+    align-self: self-start;
+    background-color: white;
+    font-size:larger;
 }
 
 .proj2{
     position: sticky;
     top: 120px;
-    align-self: center;
+    align-self:self-start;
+    padding-left: 50px;
     padding: 5px;
     background-color: white;
 }
@@ -135,6 +146,7 @@ img {
     display: flex;
     margin-left: 0%;
     padding: 5px;
+    font-size: larger;
 }
 
 .projux2{
@@ -151,4 +163,40 @@ img {
     display: flex;
     margin-left: 82%;
     padding: 5px;
+}
+
+.phone {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    img{
+        margin: 0px;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .titleColumn {
+        display: none;
+    }
+    .phone {
+        margin: 0px;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        font-family: vcr;
+        src: url(VCR\ OSD\ Mono.ttf)   
+    }
+
+    h3{
+        font-size:xx-large;
+    }
+    h4{
+        font-size: larger;
+        text-align: right;
+    }
+    
 }
