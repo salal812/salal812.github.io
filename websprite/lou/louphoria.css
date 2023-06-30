@@ -207,7 +207,7 @@ img {
         flex-flow: row;
         justify-content: space-between;
         font-family: vcr;
-        src: url(VCR\ OSD\ Mono.ttf)   
+        src: url(VCR\ OSD\ Mono.ttf); 
     }
 
     h3{
@@ -220,11 +220,15 @@ img {
     }
     
     h5{
-        font-size: large;
+        font-size: larger;
         text-align: center;
+        font-weight:900;
+        font-family: vcr;
+        src: url(VCR\ OSD\ Mono.ttf); 
     }
 
     h6{
         font-size: medium;
+        font-family: 'Inter', sans-serif;
     }
 }
