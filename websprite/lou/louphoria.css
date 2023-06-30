@@ -169,10 +169,28 @@ img {
     display: none;
 }
 
+.phonecont{
+    display: none;
+}
+
+
 @media only screen and (max-width: 768px) {
 
     img{
         margin: 0px;
+    }
+
+    .images{
+        display: none;
+    }
+
+    .images2{
+        display: none;
+    }
+
+    .phonecont{
+        display: flex;
+        flex-direction: column;
     }
 
     .title {
@@ -201,4 +219,12 @@ img {
         text-align: right;
     }
     
+    h5{
+        font-size: large;
+        text-align: center;
+    }
+
+    h6{
+        font-size: medium;
+    }
 }
