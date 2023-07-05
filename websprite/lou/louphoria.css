@@ -119,7 +119,6 @@ img {
     display: flex;
     flex-direction: row;
     align-self:flex-start;
-    background-color: white;
 }
 
 .proj2{
@@ -127,6 +126,14 @@ img {
     top: 120px;
     align-items:center;
     padding: 5px;
+}
+
+.proj2g{
+    position: sticky;
+    top: 200px;
+    text-align: right;
+    padding: 5px;
+    padding-left: 50%;
 }
 
 .proj3{
@@ -234,5 +241,9 @@ h5{
     h6{
         font-size: medium;
         font-family: 'Inter', sans-serif;
+    }
+    
+    .projux1{
+        display: none;
     }
 }
