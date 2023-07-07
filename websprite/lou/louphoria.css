@@ -240,7 +240,8 @@ h5{
 
     h6{
         font-size: medium;
-        font-family: 'Inter', sans-serif;
+        font-family: vcr;
+        src: url(VCR\ OSD\ Mono.ttf); 
     }
     
     .projux1{
