@@ -184,6 +184,9 @@ h5{
     src: url(VCR\ OSD\ Mono.ttf); 
 }
 
+footer{
+    text-align-last: center;
+}
 
 @media only screen and (max-width: 768px) {
 
