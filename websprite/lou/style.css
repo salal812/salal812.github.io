@@ -219,7 +219,10 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
-
+    .contents{
+        display: none;
+    }
+    
     img{
         margin: 0px;
     }
