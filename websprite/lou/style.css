@@ -73,22 +73,6 @@ controls{
 }
 
 
-.imgtitle {
-    display:block;
-    right: 0;
-    z-index: 1;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: end;
-}
-
-.caption {
-    display:block;
-    text-align: left;
-    padding-right: 50%;
-}
-
 .title {
     display: flex;
     flex-direction: row;
@@ -98,6 +82,12 @@ controls{
     z-index: 2;
 }
 
+.contents {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .loulou {
     display: flex;
@@ -132,49 +122,6 @@ a{
     color: black;
 }
 
-.images{
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-    margin-top: 250px;
-}
-
-
-.image2{
-    margin-top: 20%;
-    margin: 50px;
-    width: 80%;
-    height: auto;
-}
-
-.img1{
-    margin-right: 50%;
-}
-
-.img2{
-    margin-left: 50%;
-    width: inherit;
-}
-
-.img3{
-    margin-right: 50%;
-    width: 300px;
-    height: auto;
-}
-
-.image3{
-    margin-top: 10%;
-    margin-left: 20%;
-    width: 60%;
-    height: auto;
-}
-
-.imagesniki{
-    display: flex;
-    flex-direction: row;
-    width: 40%;
-    z-index: -1;
-}
 .sub{
     position: sticky;
     top: 80px;
