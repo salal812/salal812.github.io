@@ -22,6 +22,9 @@ body{
     mix-blend-mode: difference;
     color: rgb(0, 0, 0);
     z-index: 2;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 
