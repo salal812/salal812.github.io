@@ -85,7 +85,7 @@ a{
 }
 
 .img3{
-    margin-right: 50%;
+    margin-right: 10%;
     width: 300px;
     height: auto;
 }
@@ -133,6 +133,10 @@ a{
     top: 120px;
     align-items:center;
     padding: 5px;
+}
+
+.proj2i{
+
 }
 
 .proj2g{
