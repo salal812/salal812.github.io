@@ -214,6 +214,9 @@ footer{
     text-align: center;
 }
 
+.clickable{
+    text-decoration: underline;
+}
 
 
 
