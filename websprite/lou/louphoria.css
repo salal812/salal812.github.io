@@ -191,13 +191,9 @@ h5{
     src: url(VCR\ OSD\ Mono.ttf); 
 }
 
-.footer{
-    text-align-last: center;
-    display: flex;
-    flex-direction: column;
+footer{
     margin-top: 100px;
-    margin-left: 50%;
-    margin-right: 50%;
+    text-align: center;
 }
 
 
