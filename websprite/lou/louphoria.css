@@ -85,7 +85,7 @@ a{
 }
 
 .img3{
-    margin-right: 10%;
+    margin-right: 50%;
     width: 300px;
     height: auto;
 }
@@ -135,9 +135,7 @@ a{
     padding: 5px;
 }
 
-.proj2i{
 
-}
 
 .proj2g{
     position: sticky;
@@ -206,7 +204,11 @@ footer{
 @media only screen and (max-width: 768px) {
 
     img{
-        margin: 0px;
+        margin: 5px;
+    }
+
+    .img1, .img2{
+        display: none;
     }
 
     .images{
