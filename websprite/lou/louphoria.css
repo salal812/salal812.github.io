@@ -204,7 +204,7 @@ footer{
 @media only screen and (max-width: 768px) {
 
     img{
-        margin: 5px;
+        margin-trim: 10px;
     }
 
     .img1, .img2{
@@ -233,7 +233,7 @@ footer{
     }
     
     .phone {
-        margin: 0px;
+        margin: 5px;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
