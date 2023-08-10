@@ -230,7 +230,8 @@ footer{
     }
     
     img{
-        margin: 0px;
+        margin: 20px;
+        padding: 20px;
     }
 
     .images{
