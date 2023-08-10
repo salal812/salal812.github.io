@@ -207,7 +207,6 @@ footer{
 @media only screen and (max-width: 768px) {
 
     img{
-        margin-trim: 10px;
     }
 
     .img1, .img2{
