@@ -206,7 +206,15 @@ footer{
     text-decoration: underline;
 }
 
+.stylingdoc{
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
 
+iframe{
+   width: 100%; 
+   height: 800px;
+}
 
 @media only screen and (max-width: 768px) {
 
